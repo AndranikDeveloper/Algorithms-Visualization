@@ -1,0 +1,20 @@
+.algorithm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.algorithm-title {
+    font-size: 14px;
+}
+
+.algorithm-block {
+    height: 70px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}

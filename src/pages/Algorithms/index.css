@@ -1,0 +1,30 @@
+.algorithms {
+  height: 100vh; 
+  background-color: #fff;
+  display: flex; 
+  flex-direction: column;
+}
+
+.algorithms > * a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  font-size: 23px;
+}
+
+.algorithms-content {
+  display: flex; 
+  justify-content: end;
+  align-items: center; 
+  flex-grow: 1; 
+  color: black;
+  max-width: 1800px;
+}
